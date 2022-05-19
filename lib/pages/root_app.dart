@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_whatsapp_clone/pages/calls_page.dart';
+import 'package:flutter_whatsapp_clone/pages/camera_page.dart';
+import 'package:flutter_whatsapp_clone/pages/settings_page.dart';
 import 'package:flutter_whatsapp_clone/pages/status_page.dart';
 import 'package:flutter_whatsapp_clone/theme/colors.dart';
 import 'package:line_icons/line_icons.dart';
@@ -27,10 +30,10 @@ class _RootAppState extends State<RootApp> {
       index: pageIndex,
       children: const [
         StatusPage(),
+        CallsPage(),
+        CameraPage(),
         StatusPage(),
-        StatusPage(),
-        StatusPage(),
-        StatusPage(),
+        SettingsPage(),
       ],
     );
   }
@@ -38,7 +41,7 @@ class _RootAppState extends State<RootApp> {
   Widget getFooter() {
     List iconItems = [
       LineIcons.circle,
-      LineIcons.phoneSquare,
+      LineIcons.phone,
       LineIcons.camera,
       LineIcons.comment,
       LineIcons.gem,

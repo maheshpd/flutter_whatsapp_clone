@@ -50,7 +50,7 @@ class _StatusPageState extends State<StatusPage> {
                   decoration: InputDecoration(
                       prefixIcon: Icon(
                         LineIcons.search,
-                        color: white.withOpacity(0.5),
+                        color: white.withOpacity(0.3),
                       ),
                       border: InputBorder.none,
                       hintText: "Search",
