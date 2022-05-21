@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_whatsapp_clone/pages/calls_page.dart';
 import 'package:flutter_whatsapp_clone/pages/camera_page.dart';
+import 'package:flutter_whatsapp_clone/pages/chat_page.dart';
 import 'package:flutter_whatsapp_clone/pages/settings_page.dart';
 import 'package:flutter_whatsapp_clone/pages/status_page.dart';
 import 'package:flutter_whatsapp_clone/theme/colors.dart';
@@ -32,7 +33,7 @@ class _RootAppState extends State<RootApp> {
         StatusPage(),
         CallsPage(),
         CameraPage(),
-        StatusPage(),
+        ChatPage(),
         SettingsPage(),
       ],
     );
